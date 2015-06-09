@@ -2,7 +2,8 @@
 
 Getting Started
 -----------------
- - clone this repo
+ - `git clone git@github.com:adonespitogo/Grunt-Protractor-Test-Suite.git`
+ - `cd Grunt-Protractor-Test-Suite`
  - `npm install -g grunt grunt-cli`
  - `npm install`
  - `grunt`
