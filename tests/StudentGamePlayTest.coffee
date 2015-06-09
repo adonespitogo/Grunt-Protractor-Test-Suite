@@ -13,8 +13,11 @@ describe 'Student Gameplay', ->
     browser.getCurrentUrl().then (url) ->
       expect( challengesPageCheck.test url ).toBe true
 
-    element(By.css('.studentCountersBar .counterBlockStars span')).getText().then (count) ->
-      expect(parseInt count).toBeGreaterThan 0
+  describe 'Stars and XP count', ->
 
-    element(By.css('.studentCountersBar .counterBlockXp span')).getText().then (count) ->
-      expect(parseInt count).toBeGreaterThan 0
+    it 'should be greater then 0', ->
+      element(By.css('.studentCountersBar .counterBlockStars span')).getText().then (count) ->
+        expect(parseInt count).toBeGreaterThan 0
+
+      element(By.css('.studentCountersBar .counterBlockXp span')).getText().then (count) ->
+        expect(parseInt count).toBeGreaterThan 0
