@@ -6,4 +6,5 @@ Getting Started
  - `cd Grunt-Protractor-Test-Suite`
  - `npm install -g grunt grunt-cli`
  - `npm install`
+ - `./node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update`
  - `grunt`
