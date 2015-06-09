@@ -1,0 +1,18 @@
+{
+  "name": "knowledgehook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "./node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update",
+    "test": "grunt"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "^1.9.3",
+    "grunt": "^0.4.5",
+    "grunt-protractor-runner": "^2.0.0",
+    "grunt-protractor-webdriver": "^0.2.0"
+  }
+}
