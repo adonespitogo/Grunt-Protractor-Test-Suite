@@ -2,7 +2,7 @@
 
 Getting Started
 -----------------
-
-`npm install -g grunt grunt-cli`
-`npm install`
-`grunt`
+ - clone this repo
+ - `npm install -g grunt grunt-cli`
+ - `npm install`
+ - `grunt`
