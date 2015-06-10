@@ -9,10 +9,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "coffee-script": "^1.9.3",
     "grunt": "^0.4.5",
     "grunt-protractor-runner": "^2.0.0",
-    "grunt-protractor-webdriver": "^0.2.0",
     "jasmine-spec-reporter": "^2.2.3"
   }
 }
